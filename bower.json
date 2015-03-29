@@ -1,7 +1,7 @@
 {
-  "name": "McPants/jquery.shapeshift",
+  "name": "hilnius/jquery.shapeshift",
   "version": "1.0.0",
-  "main": "path/to/main.css",
+  "main": "core/jquery.shapeshift.min.js",
   "description": "please add it",
   "license": "Eclipse",
   "ignore": [
@@ -9,11 +9,7 @@
     "**/*.txt"
   ],
   "dependencies": {
-    "<dependency_name>": "<semantic_version>",
-    "<dependency_name>": "<Local_folder>",
-    "<dependency_name>": "<package>"
   },
   "devDependencies": {
-    "<test-framework-name>": "<version>"
   }
 }

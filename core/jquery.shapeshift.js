@@ -535,6 +535,12 @@
                 }
               }
             }
+            if (target_position < options.customCutoffStart) { // custom modified
+              target_position = options.customCutoffStart;
+            }
+            if (target_position > total_positions - options.customCutoffEnd) { // custom end cutoff
+              target_position = total_positions - options.customCutoffEnd;
+            }
             if (target_position === parsed_children.length) {
               $target = parsed_children[target_position - 1].el;
               $selected.insertAfter($target);
